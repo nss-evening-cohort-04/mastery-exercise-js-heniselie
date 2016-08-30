@@ -3,6 +3,7 @@ button.addEventListener("click", printTreeInfo); //event listenter
 
 function printTreeInfo() {
   var buildingTree = { height: parseInt(document.getElementById("height").value),
+
     symbol: document.getElementById("symbol").value
   };
   checkingUserInput(buildingTree);
@@ -47,11 +48,5 @@ function createTree(pineTree) {
         
    }
  }
-function treeButton(clickEvent) {
-   console.log("tree growing");
- 
- }
 
- button.addEventListener("click", treeButton);
- 
 
